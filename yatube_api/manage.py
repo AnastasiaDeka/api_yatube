@@ -5,6 +5,12 @@ import sys
 
 
 def main():
+    """
+    Запускает административные команды Django.
+
+    Устанавливает настройки проекта и передаёт команды
+    в менеджер выполнения.
+    """
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'yatube_api.settings')
     try:
         from django.core.management import execute_from_command_line
