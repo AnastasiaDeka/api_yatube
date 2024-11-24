@@ -1,4 +1,4 @@
-"""Модуль содержит пользовательские разрешения для работы с объектами API."""
+
 
 from rest_framework.permissions import IsAuthenticated, SAFE_METHODS
 

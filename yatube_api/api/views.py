@@ -1,4 +1,8 @@
+"""
+Модуль для работы с API постов, групп и комментариев.
 
+Содержит ViewSet'ы для работы с данными через Django Rest Framework.
+"""
 
 from django.shortcuts import get_object_or_404
 from rest_framework.viewsets import ModelViewSet, ReadOnlyModelViewSet
